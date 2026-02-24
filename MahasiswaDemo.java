@@ -5,7 +5,7 @@ public class MahasiswaDemo {
         Mahasiswa10[] arrayOfMahasiswa = new Mahasiswa10[3];
         
         
-        
+     
         // Instansiasi dan mengisi atribut index 0
         arrayOfMahasiswa[0] = new Mahasiswa10();
         arrayOfMahasiswa[0].nim   = "244107060033";
