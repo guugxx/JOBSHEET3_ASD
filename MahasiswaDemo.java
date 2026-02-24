@@ -1,6 +1,12 @@
+import java.util.Scanner;
 public class MahasiswaDemo {
+    
     public static void main(String[] args) {
+        
         Mahasiswa10[] arrayOfMahasiswa = new Mahasiswa10[3];
+        
+        
+        for(int i=0; i< 3; i++) {
         // Instansiasi dan mengisi atribut index 0
         arrayOfMahasiswa[0] = new Mahasiswa10();
         arrayOfMahasiswa[0].nim   = "244107060033";
@@ -17,6 +23,7 @@ public class MahasiswaDemo {
         arrayOfMahasiswa[2].nama  = "DIRHAMAWAN PUTRANTO";
         arrayOfMahasiswa[2].kelas = "TI-2E";
         arrayOfMahasiswa[2].ipk   = (float) 3.80;
+        
         System.out.println("NIM   : " + arrayOfMahasiswa[0].nim);
         System.out.println("Nama  : " + arrayOfMahasiswa[0].nama);
         System.out.println("Kelas : " + arrayOfMahasiswa[0].kelas);
