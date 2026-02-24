@@ -5,7 +5,7 @@ public class MahasiswaDemo {
         Mahasiswa10[] arrayOfMahasiswa = new Mahasiswa10[3];
         
         
-        for(int i=0; i< 3; i++) {
+        
         // Instansiasi dan mengisi atribut index 0
         arrayOfMahasiswa[0] = new Mahasiswa10();
         arrayOfMahasiswa[0].nim   = "244107060033";
@@ -39,4 +39,4 @@ public class MahasiswaDemo {
         System.out.println("IPK   : " + arrayOfMahasiswa[2].ipk);
         System.out.println("--------------------------------------");
     }
-}}
+}
